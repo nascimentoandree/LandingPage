@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --cor-primaria:white;
+    --cor-secundaria:#036D56;
+    --cor-plano-de-fundo:#161616;
+    --cor-navegacao:#ADB5BD;
+
+    font-size: 62.5%; /* 1 rem= 10px*/
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor-plano-de-fundo);
+    box-sizing: border-box;
+}
+
+header{
+    
+    display: flex;
+    flex-direction: column;
+    background-image:url(./assets/backgound.png);
+    background-repeat:no-repeat ;
+    height: 100%; /*tamanho do bakground */
+    
+    
+}
+.navegacao {
+    margin: 4% 4.2% 6.5% 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 4%;
+}
+
+.navegacao-iniciar{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    color: var(--cor-navegacao);
+    font-size: 1.3rem;
+
+}
+
+.navegacao-iniciar:hover{
+    color: var(--cor-primaria);
+    text-shadow: 0 0 1em var(--cor-primaria);
+   
+}
+
+.navegacao-sobre-mim{
+    margin: 0%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    color: var(--cor-navegacao);
+    font-size: 1.3rem;
+}
+
+.navegacao-sobre-mim:hover{
+    color: var(--cor-primaria);
+    text-shadow: 0 0 1em var(--cor-primaria);
+   
+}
+
+.navegacao-projetos {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    color: var(--cor-navegacao);
+    font-size: 1.3rem;
+}
+
+.navegacao-projetos:hover{
+    color: var(--cor-primaria);
+    text-shadow: 0 0 1em var(--cor-primaria);
+   
+}
+
+.navegacao-contato{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    color: var(--cor-navegacao);
+    font-size: 1.3rem;
+}
+
+.navegacao-contato:hover{
+    color: var(--cor-primaria);
+    text-shadow: 0 0 1em var(--cor-primaria);
+   
+}
+
+.container-header{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 100%;  
+    height: auto;
+    
+}
+
+.secao-sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#foto{
+    height: 24.5rem;
+    max-width: 24.5rem;
+    padding-bottom: 2rem;
+}
+
+#nome{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--cor-primaria);
+    font-size: 2.4rem;
+    font-weight:600;
+    padding-bottom: 0.3rem;
+}
+
+#ocupacao{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    font-weight:400;
+    padding-bottom: 1.5rem;
+}
+
+#redes-sociais{
+    
+    display: flex;
+    align-items: center;
+    gap: 2.9rem;
+    padding-bottom: 1.5rem;
+}
+
+.email-cabecalho{
+    max-width: 24px;
+    height: 24px;
+}
+.email-cabecalho:hover{
+    max-width: 24px;
+    height: 24px;
+    border-radius: 100%  ;
+    box-shadow: 0 0 2em var(--cor-primaria);  
+}
+
+.github-cabecalho{
+    max-width: 24px;
+    height: 24px;
+}
+
+.github-cabecalho:hover{
+    max-width: 24px;
+    height: 24px;
+    border-radius: 100%  ;
+    box-shadow: 0 0 2em var(--cor-primaria);  
+}
+
+.linkedin-cabecalho{
+    max-width: 24px;
+    height: 24px;
+}
+
+.linkedin-cabecalho:hover{
+    max-width: 24px;
+    height: 24px;
+    border-radius: 100%  ;
+    box-shadow: 0 0 2em var(--cor-primaria);  
+}
+
+.telefone-cabecalho{
+    max-width: 24px;
+    height: 24px;
+}
+.telefone-cabecalho:hover{
+    max-width: 24px;
+    height: 24px;
+    border-radius: 100%  ;
+    box-shadow: 0 0 2em var(--cor-primaria);  
+}
+
+.situacao{
+    font-size:1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+
+
+.menu-apresentacaoo{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-secao{
+    margin-top: 13%;
+    display: flex;
+    flex-direction:row;
+    
+   
+}
+
+.titulo-menu{
+    color:var(--cor-primaria);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding-left: 7%;
+    padding-top: 1%;
+}
+
+.texto-menu{
+    display: flex;
+    color: var(--cor-primaria);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    max-width: 85%;
+    padding-left: 7%;
+    letter-spacing: 2%;
+    line-height:160%;
+    text-indent: 3%;
+}
+
+.segundo-paragrafo{
+    color: var(--cor-primaria);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    max-width: 85%;
+    padding-left: 7%;
+    letter-spacing: 2%;
+    line-height:160%;
+    text-indent: 3%;
+}
+
+.terceiro-paragrafo{
+    color: var(--cor-primaria);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    max-width: 85%;
+    padding-left: 7%;
+    letter-spacing: 2%;
+    line-height:160%;
+    text-indent: 3%;
+}
+
+.imagem-homem{
+    padding-left: 7%;
+}
+
+.informacoes-adicionais{
+    padding-top: 2%;
+    display: inline-block;
+    max-width: 40%;
+    padding-left: 7%;
+}
+.informacoes-titulo{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--cor-primaria);
+    letter-spacing: 0.15rem;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.perguntas{
+        display: inline-block;
+    color: var(--cor-secundaria);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 190%;
+    letter-spacing:0.13rem;
+    
+    
+}
+.respostas{
+    
+    float: right;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:normal;
+    font-size: 1.4rem;
+    max-width: 80%;
+    line-height: 190%;
+    letter-spacing:0.13rem;
+    color: var(--cor-primaria);
+    padding-left: 3%;
+}
+
+.conhecimentos{
+    align-items:flex-end;
+    margin-top: -3.7%;
+    margin-left: 40%;
+    width: 41.5%;
+    position: absolute;
+    display: inline-block;
+    
+}
+.container-conhecimentos{
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo-conhecimento{
+    
+    font-family: 'Quicksand', sans-serif;
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    letter-spacing: 0.13rem;
+    font-weight: 600;
+}
+
+.conhecimento-aws{
+    padding-left: 5.5%;
+    padding-right: 15%;
+}
+.conhecimento-css{
+    padding-right: 15%;
+}
+.conhecimento-html{
+    padding-right: 10.%;
+}
+
+.conhecimento-segunda-linha{
+    padding-top: 10%;
+}
+
+.conhecimento-ingles{
+    padding-left: 23%;
+}
+
+.conhecimento-scrum{
+    padding-left: 12%;
+}
+
+
+.menu-projetos{
+    padding-top: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.meus-projetos-titulo{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    letter-spacing: 0.13rem;
+    font-weight: 600;
+    margin-bottom: 4.0%;
+    
+}
+
+.container-projetos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rocketseat-projeto{
+        margin-right: 10%; 
+}
+
+.rocketseat-projeto:hover{
+    box-shadow: 0 0 7em #764EC4;
+}
+
+.expo-projeto{
+    padding-top: 2.9%;
+}
+
+.expo-projeto:hover{
+    box-shadow: 0 0 7em white;
+}
+.container-linha{
+    width: 220px;
+    border: thin solid var(--cor-primaria);
+}
+
+.rodape{
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.secao-rodape{
+    width: 100%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+.titulo-rodape{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    letter-spacing: 0.13rem;
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+.container-rodape{
+    gap: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    
+}
+.github-rodape{
+    width: 24px;
+    height: 24px;
+}
+
+.github-rodape:hover{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%  ;
+    box-shadow: 0 0 2em var(--cor-primaria);  
+}
+
+.instagram-rodape{
+    width: 24px;
+    height: 24px;
+}
+
+.instagram-rodape:hover{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%  ;
+    box-shadow: 0 0 2em var(--cor-primaria);  
+}
+
+.linkedin-rodape{
+    width: 24px;
+    height: 24px;
+}
+
+.linkedin-rodape:hover{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%  ;
+    box-shadow: 0 0 2em var(--cor-primaria);  
+}
+
+
+.copyright{
+    color: var(--cor-primaria);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 1.1rem;
+    letter-spacing: 4%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
