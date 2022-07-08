@@ -1,4 +1,4 @@
-<h3 align="center"> Portifolio </h3>
+<h3 align="center"> Landing Page </h3>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/85851753/177890975-fafa66c9-4742-41d7-8728-d999128bc134.png" width="70%" alt="André do Nascimento">
